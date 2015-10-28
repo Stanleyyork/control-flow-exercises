@@ -3,7 +3,7 @@ if (false) {
 	var height = 4.3;
 	var age = 11;
 	var adult = true;
-	var boss = true
+	var boss = true;
 	var park_pass = true;
 
 	// Can he ride?
@@ -12,8 +12,15 @@ if (false) {
 	} else {
 	    console.log("Sorry, you can't ride");
 	}
-} else {
+} else if (false) {
 	for(var i = 0; i < 25; i++) {
 		console.log(i + ": This is awesome!");
 	}
+} else if (true) {
+	var arr = ["Howdy there", "OMG", "javascript", "Pair Programming"];
+	for(var i = 0; i < arr.length; i++) {
+		console.log(arr[i]);
+	}
+} else {
+	console.log("all conditions false!");
 }
